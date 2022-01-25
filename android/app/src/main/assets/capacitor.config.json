@@ -1,0 +1,6 @@
+{
+	"appId": "king-hunter.project.noticias",
+	"appName": "Noticias",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

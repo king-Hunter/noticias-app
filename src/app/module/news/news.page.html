@@ -1,0 +1,14 @@
+<app-header [title]="title"></app-header>
+<ion-content>
+    <app-header-content [title]="title"></app-header-content>
+    <ion-segment scrollable [value]="selectedCategory" (ionChange)="segmentChanged($event)" mode="md" class="segment-border-button">
+        <ion-segment-button [value]="category.value" *ngFor="let category of categories">
+            <ion-label class="ion-text-capitalize">
+                {{category.title}}
+            </ion-label>
+        </ion-segment-button>
+    </ion-segment>
+
+    <app-articles [articles]="articles"></app-articles>
+    <app-infinite-scroll #infinite (response)="loadData()" message="Cargando mas..." [activeScroll]="scroll"></app-infinite-scroll>
+</ion-content>

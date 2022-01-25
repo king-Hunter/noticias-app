@@ -1,0 +1,8 @@
+::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+  display: none !important;
+  overflow: hidden !important;
+}
+
+.segment-border-button {
+  border-bottom: var(--custom-border-color) !important;
+}

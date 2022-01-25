@@ -1,0 +1,6 @@
+<app-header [title]="title"></app-header>
+<ion-content [fullscreen]="true">
+  <app-header-content [title]="title"></app-header-content>
+  <app-articles [articles]="articles"></app-articles>
+  <app-infinite-scroll #infinite (response)="loadData()" message="Cargando mas..." [activeScroll]="scroll"></app-infinite-scroll>
+</ion-content>

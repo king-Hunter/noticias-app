@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Negocios",
+        "value": "business"
+    },
+    {
+        "title": "Ciencia",
+        "value": "science"
+    },
+    {
+        "title": "Deportes",
+        "value": "sports"
+    },
+    {
+        "title": "Tecnología",
+        "value": "technology"
+    },
+    {
+        "title": "Entretenimiento",
+        "value": "entertainment"
+    },
+    {
+        "title": "General",
+        "value": "general"
+    },
+    {
+        "title": "Salud",
+        "value": "health"
+    }
+]
